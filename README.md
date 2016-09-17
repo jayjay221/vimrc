@@ -1,4 +1,6 @@
 # vimrc
+My personal VIM settings and plugins
+
 
 # how to set up
 1. Clone repo
