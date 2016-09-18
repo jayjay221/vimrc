@@ -16,6 +16,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'majutsushi/tagbar'
+Plugin 'altercation/vim-colors-solarized'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -43,6 +44,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-syntax on
+syntax enable
 au VimEnter * NERDTree
-
+set background=dark
+colorscheme solarized
