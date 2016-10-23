@@ -48,3 +48,5 @@ syntax enable
 " au VimEnter * NERDTree
 set background=dark
 colorscheme solarized
+set nu
+set cursorline
